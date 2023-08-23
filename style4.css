@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Header styles */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+nav li:not(:last-child) {
+	margin-right: 1.5rem;
+}
+
+nav a {
+	display: block;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #2d2d2d;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: #ff5e5b;
+}
+
+.btn-donate {
+	background-color: #ff5e5b;
+	color: #fff;
+	padding: 0.8rem 1.5rem;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.btn-donate:hover {
+	background-color: #f04a47;
+}
+
+/* Donate section styles */
+.donate-container {
+	margin-top: 5rem;
+	padding: 5rem 0;
+	background-color: #f9f9f9;
+}
+
+.donate-heading {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.section-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #2d2d2d;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.section-subtitle {
+	font-size: 1.25rem;
+	color: #4d4d4d;
+	line-height: 1.5;
+}
+
+.donate-form-container {
+	max-width: 800px;
+	margin: auto;
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+	margin-bottom: 2rem;
+}
+
+.form-label {
+	display: block;
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #2d2d2d;
+	margin-bottom: 0.5rem;
+}
+
+.form-input {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	font-size: 1rem;
+	color: #4d4d4d;
+	border: none;
+	border-radius: 0.5rem;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.card-inputs {
+	display: flex;
+}
+
+.card-inputs input:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.card-number {
+	width: 65%;
+}
+
+.card-expiry,
+.card-cvc {
+	width: 35%;
+}
+
+.form-submit {
+	background-color: #ff5e5b;
+	color: #fff;
+	padding: 0.8rem 1.5rem
+
