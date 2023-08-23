@@ -1,0 +1,162 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Global styles */
+body {
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #ff9900;
+}
+
+.hero {
+	background-color: #ff9900;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.hero h2 {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 700;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.services {
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+.services h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.service {
+	background-color: #f2f2f2;
+	padding: 30px;
+	margin-bottom: 30px;
+	flex-basis: calc(33.33% - 20px);
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+	transform: translateY(-10px);
+}
+
+.service img {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.service h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.service p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.cta {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.cta h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.cta p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.footer-container {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
